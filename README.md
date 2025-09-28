@@ -7,6 +7,7 @@ It is designed as a **portfolio project** — showing end-to-end data handling, 
 
 ## 📂 Project Structure
 
+```
 hr-analytics-sql/
 ├─ queries/
 │    ├─ basic_checks.sql
@@ -16,18 +17,18 @@ hr-analytics-sql/
 │ 	 ├─ jobrole_attrition.sql
 │ 	 ├─ tenure_attrition.sql
 │ 	 ├─ overtime_attrition.sql
-│ 	 ├─ age_gender_attrition.sql
+│ 	 └─ age_gender_attrition.sql
 │ 	 
 ├─ notebook/
 │    ├─ hr_analysis.ipnyb
 │    ├─ eda_summary.ipnyb
-│    ├─ figures/
+│    └─ figures/
 │    		├─univariate/
 │    		│ 	├─ age_distribution.png
 │    		│ 	├─ attribution_balance.png
 │    		│ 	├─ department_counts.png
 │    		│ 	├─ monthly_income_distribution.png
-│    		│ 	├─ overtime_counts.png
+│    		│ 	└─ overtime_counts.png
 │    		│ 	
 │    		├─bivariate/
 │    		│ 	├─ attrition_vs_age.png
@@ -37,30 +38,31 @@ hr-analytics-sql/
 │    		│ 	├─ attrition_vs_maritalstatus.png
 │    		│ 	├─ attrition_vs_monthlyincome.png
 │    		│ 	├─ attrition_vs_overtime.png
-│    		│ 	├─ attrition_vs_tenure.png
+│    		│ 	└─ attrition_vs_tenure.png
 │    		│ 	
-│    		├─eda_summary/
+│    		└──eda_summary/
 │    			├─ age_tenure_analysis.png
 │    			├─ attrition.png
 │    			├─ attrition_gender_maritalstatus.png
 │    			├─ dept_and_jobroles.png
 │    			├─ monthlyincome_vs_attrition.png
-│    			├─ overtime_impact.png
+│    			└─ overtime_impact.png
 ├─ data/
 │    └─ ibm_hr.csv
 │ 
 ├─ results/
 │    ├─ overall_attrition.csv
-│ 	 ├─ dept_attrition.csv
-│ 	 ├─ salary_analysis.csv
-│ 	 ├─ jobrole_attrition.csv
-│ 	 ├─ tenure_attrition.csv
-│ 	 ├─ overtime_attrition.csv
-│ 	 ├─ age_gender_attrition.csv
+│    ├─ dept_attrition.csv
+│    ├─ salary_analysis.csv
+│    ├─ jobrole_attrition.csv
+│    ├─ tenure_attrition.csv
+│    ├─ overtime_attrition.csv
+│    └─ age_gender_attrition.csv
 │
 ├─ LICENSE	
 ├─ requirements.txt
-├─ README.md # Project Overview (this file)
+└─ README.md # Project Overview (this file)
+```
 
 
 ---
